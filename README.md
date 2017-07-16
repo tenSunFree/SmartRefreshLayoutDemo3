@@ -8,10 +8,10 @@
 1. BaseRecyclerAndAdapter                                         
 https://github.com/open-android/BaseRecyclerAndAdapter                        
 
-2. RetrofitUtils   
+2. RetrofitUtils                                         
 https://github.com/open-android/RetrofitUtils                  
 
-3. SmartRefreshLayout                          
+3. SmartRefreshLayout                                         
 https://github.com/scwang90/SmartRefreshLayout
 
   
