@@ -5,7 +5,7 @@
 
 取材自以下資源
 --------
-BaseRecyclerAndAdapter  
+BaseRecyclerAndAdapter
 https://github.com/open-android/BaseRecyclerAndAdapter  
   
   
