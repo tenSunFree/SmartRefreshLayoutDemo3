@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+        applicationId "com.tensun.smartrefreshlayoutdemo3"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.github.open-android:BaseRecyclerAndAdapter:0.5.13'                                                     // 為了 BaseRecyclerAndAdapter
+    compile 'com.jakewharton:butterknife:8.4.0'                                                                         // 為了 BaseRecyclerAndAdapter
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'                                                    // 為了 BaseRecyclerAndAdapter
+
+    compile 'com.github.open-android:RetrofitUtils:0.1.9'                                                               // 為了 RetrofitUtils
+
+    compile 'com.jakewharton:butterknife:8.7.0'                                                                         // Android ButterKnife Zelezny
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'                                                    // Android ButterKnife Zelezny
+
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.2-alpha-6'                                                  // 為了使用 RefreshLayout
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.2-alpha-6'                                                  // 如果使用了特殊的Header
+
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support:support-v4:23.2.1'
+}
