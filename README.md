@@ -5,11 +5,14 @@
 
 取材自以下資源
 --------
-BaseRecyclerAndAdapter                                         
+1. BaseRecyclerAndAdapter                                         
 https://github.com/open-android/BaseRecyclerAndAdapter                        
 
-RetrofitUtils  
-https://github.com/open-android/RetrofitUtils
+2. RetrofitUtils                                         
+https://github.com/open-android/RetrofitUtils                  
+
+3. SmartRefreshLayout                          
+https://github.com/scwang90/SmartRefreshLayout
 
   
 
